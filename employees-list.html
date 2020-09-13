@@ -63,7 +63,7 @@
                     <td>Sanya Kasaudhan</td>
                     <td>Kasaudhansanya@gmail.com</td>
                     <td><a href="#"   data-toggle="modal" data-target="#employee_details1" class="btn btn-sm btn-block btn-info">Details</a></td>
-                    <td><a href="#" class="btn btn-sm btn-block btn-warning">Edit</a></td>
+                    <td><a href="#"   data-toggle="modal" data-target="#employee_edit_details1" class="btn btn-sm btn-block btn-warning">Edit</a></td>
                     <td><a href="#" class="btn btn-sm btn-block btn-danger">Delete</a></td>
                 </tr>
                 <tr>
@@ -174,6 +174,43 @@
             </tr>
             
         </table>
+      </div>
+    </div>
+  </div>
+
+  <!--Edit details modal-->
+  <div class="modal fade" id="employee_edit_details1" tabindex="-1" aria-labelledby="employee_edit_details1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add employee details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+              <div class="mb-3">
+                  <input type="text" class="form-control form-control-sm" value="13-09-2020" required>
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control form-control-sm" value="Sanya Kasaudhan" required>
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control form-control-sm" value="Kasaudhansanya@gmail.com" required>
+            </div>
+            <div class="mb-3">
+                <input type="tel" class="form-control form-control-sm" value="123456123" required>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control form-control-sm" value="Web Developer" required>
+           
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-sm btn-success btn-block">Add New Employee</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>

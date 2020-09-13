@@ -62,7 +62,7 @@
                     <td>1</td>
                     <td>Sanya Kasaudhan</td>
                     <td>Kasaudhansanya@gmail.com</td>
-                    <td><a href="#" class="btn btn-sm btn-block btn-info">Details</a></td>
+                    <td><a href="#"   data-toggle="modal" data-target="#employee_details1" class="btn btn-sm btn-block btn-info">Details</a></td>
                     <td><a href="#" class="btn btn-sm btn-block btn-warning">Edit</a></td>
                     <td><a href="#" class="btn btn-sm btn-block btn-danger">Delete</a></td>
                 </tr>
@@ -96,7 +96,7 @@
     </div>
 
   
-  <!-- Modal -->
+  <!-- add employee Modal -->
   <div class="modal fade" id="add_employee" tabindex="-1" aria-labelledby="add_employee" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -132,6 +132,48 @@
             </div>
           </form>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Details modal-->
+  <!-- Modal -->
+  <div class="modal fade" id="employee_details1" tabindex="-1" aria-labelledby="employee_details1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Employee details</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <table class="table">
+            <tr>
+                <th>ID</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Joining Date</th>
+                <td>13th September 2020</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>Sanya Kasaudhan</td>
+            </tr>
+            <tr>
+                <th>Email ID</th>
+                <td>Kasaudhansanya@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>123456752</td>
+            </tr>
+            <tr>
+                <th>Job</th>
+                <td>Web Developer</td>
+            </tr>
+            
+        </table>
       </div>
     </div>
   </div>

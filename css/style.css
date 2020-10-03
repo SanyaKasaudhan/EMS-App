@@ -1,6 +1,9 @@
 body{
     background-color: bisque;
 }
+.top {
+  margin-top: 15%;
+}
 .bx{
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
